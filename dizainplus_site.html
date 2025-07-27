@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="ka">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>დიზაინ+ — პროფესიონალური რემონტი</title>
+    <style>
+        body {
+            font-family: sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f9f9f9;
+            color: #333;
+        }
+        header {
+            background-color: #0d3b66;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        nav {
+            background-color: #145da0;
+            padding: 10px;
+            text-align: center;
+        }
+        nav a {
+            color: white;
+            margin: 0 15px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        section {
+            padding: 40px 20px;
+            max-width: 1000px;
+            margin: auto;
+        }
+        .services {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 20px;
+        }
+        .service {
+            background-color: white;
+            border-radius: 8px;
+            box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+            padding: 20px;
+        }
+        .service img {
+            width: 100%;
+            border-radius: 5px;
+        }
+        .gallery-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 15px;
+            margin-top: 20px;
+        }
+        .gallery-grid img {
+            width: 100%;
+            border-radius: 8px;
+        }
+        form input, form textarea, form button {
+            width: 100%;
+            padding: 10px;
+            margin: 5px 0;
+            border-radius: 4px;
+            border: 1px solid #ccc;
+        }
+        form button {
+            background-color: #145da0;
+            color: white;
+            border: none;
+            cursor: pointer;
+        }
+        form button:hover {
+            background-color: #0d3b66;
+        }
+        footer {
+            background-color: #0d3b66;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>დიზაინ+</h1>
+        <p>პროფესიონალური რემონტის სერვისი</p>
+    </header>
+    <nav>
+        <a href="#about">ჩვენ შესახებ</a>
+        <a href="#services">სერვისები</a>
+        <a href="#gallery">გალერეა</a>
+        <a href="#contact">კონტაქტი</a>
+    </nav>
+
+    <section id="about">
+        <h2>ჩვენ შესახებ</h2>
+        <p>"დიზაინ+" გთავაზობთ კომპლექსურ რემონტის მომსახურებას მაღალი ხარისხითა და ხელმისაწვდომი ფასებით. ვმუშაობთ სწრაფად, სუფთად და პასუხისმგებლობით.</p>
+    </section>
+
+    <section id="services">
+        <h2>ჩვენი სერვისები</h2>
+        <div class="services">
+            <div class="service">
+                <img src="https://images.unsplash.com/photo-1594737625785-cb54143a851f?auto=format&fit=crop&w=800&q=80" alt="კაფელ-მეტლახი">
+                <h3>კაფელ-მეტლახი და ვანის მოპირკეთება</h3>
+                <p>გემოვნებით შერჩეული და ზუსტად დადებული კაფელი ნებისმიერ სივრცეში.</p>
+            </div>
+            <div class="service">
+                <img src="https://images.unsplash.com/photo-1600585154526-990dced4db0d?auto=format&fit=crop&w=800&q=80" alt="იატაკის დაგება">
+                <h3>იატაკის დაგება</h3>
+                <p>ლამინატი, პარკეტი, თბილი იატაკი — ჩვენთან მარტივად.</p>
+            </div>
+            <div class="service">
+                <img src="https://images.unsplash.com/photo-1618220179428-22790b7733a6?auto=format&fit=crop&w=800&q=80" alt="შპალერი">
+                <h3>შპალერის გაკვრა</h3>
+                <p>ზუსტად გაკრული შპალერი თქვენი გემოვნებით შერჩეული დიზაინით.</p>
+            </div>
+            <div class="service">
+                <img src="https://images.unsplash.com/photo-1615873968403-0b375055b17f?auto=format&fit=crop&w=800&q=80" alt="მეტალო კარფანჯარა">
+                <h3>მეტალო კარფანჯარა, ჟალუზი</h3>
+                <p>მოწესრიგებული მეტალო კონსტრუქციები და თანამედროვე ფარდები.</p>
+            </div>
+            <div class="service">
+                <img src="https://images.unsplash.com/photo-1582582425941-cafc362e0862?auto=format&fit=crop&w=800&q=80" alt="ავეჯი">
+                <h3>ლამინატის ავეჯი</h3>
+                <p>ავეჯის დამზადება ლამინატით თქვენი სივრცის მიხედვით.</p>
+            </div>
+            <div class="service">
+                <img src="https://images.unsplash.com/photo-1600852364667-4fc5c3015133?auto=format&fit=crop&w=800&q=80" alt="ელექტროობა">
+                <h3>ელექტროობა</h3>
+                <p>ახალი გაყვანილობა, ძველის განახლება და უსაფრთხო მონტაჟი.</p>
+            </div>
+            <div class="service">
+                <img src="https://images.unsplash.com/photo-1600585152935-7e16cfb3a68b?auto=format&fit=crop&w=800&q=80" alt="დეკორირებული გატიხვრა">
+                <h3>დეკორირებული გატიხვრა</h3>
+                <p>დამატებული სტილი თქვენს კედლებზე — არტ დეკორი ან ტექსტურა.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="gallery">
+        <h2>ჩვენი შესრულებული სამუშაოები</h2>
+        <div class="gallery-grid">
+            <img src="https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=800&q=80" alt="სამუშაო 1">
+            <img src="https://images.unsplash.com/photo-1615874959474-dcf8c729b4d1?auto=format&fit=crop&w=800&q=80" alt="სამუშაო 2">
+            <img src="https://images.unsplash.com/photo-1600585153130-46e64e109b1f?auto=format&fit=crop&w=800&q=80" alt="სამუშაო 3">
+            <img src="https://images.unsplash.com/photo-1598928512683-02fbddf0be78?auto=format&fit=crop&w=800&q=80" alt="სამუშაო 4">
+            <img src="https://images.unsplash.com/photo-1601039643663-15f3425d7c5e?auto=format&fit=crop&w=800&q=80" alt="სამუშაო 5">
+            <img src="https://images.unsplash.com/photo-1597089931785-0c0c0e665c52?auto=format&fit=crop&w=800&q=80" alt="სამუშაო 6">
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2>დაგვიკავშირდით</h2>
+        <p>📞 ტელეფონი: 555 12 34 56<br>
+        📧 ელფოსტა: info@dizainplus.ge<br>
+        📍 თბილისი, საქართველო</p>
+        <form onsubmit="event.preventDefault(); alert('გმადლობთ! თქვენი შეტყობინება მიღებულია.');">
+            <input type="text" placeholder="თქვენი სახელი" required><br>
+            <input type="tel" placeholder="ტელეფონის ნომერი" required><br>
+            <textarea placeholder="შეტყობინება" rows="4" required></textarea><br>
+            <button type="submit">გაგზავნა</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>© 2025 დიზაინ+ | ვებ გვერდი შექმნილია ChatGPT-ის დახმარებით</p>
+    </footer>
+</body>
+</html>
